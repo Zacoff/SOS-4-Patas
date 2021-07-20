@@ -1,0 +1,27 @@
+section{
+  width:100%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imagem-colaboradores{
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  margin: 16px;
+  min-width: 220px;
+  cursor: pointer;
+}
+.imagem-colaboradores img{
+  width: 100%;
+  max-width: 250px;
+}
+.imagem-colaboradores img:hover{
+  filter:opacity(70%);
+}
+@media (max-width: 760px) {
+  section{
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+}

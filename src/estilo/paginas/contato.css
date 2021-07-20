@@ -1,0 +1,40 @@
+section{
+  width:100%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mapa{
+  width: 30%;
+  min-width: 300px;
+  cursor: pointer;
+}
+.mapa img{
+  width: 100%;
+}
+.texto-contato .info{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.texto-contato .info p{
+  margin-left: 10px;
+  font-size: 25px;
+}
+.texto-contato .info svg{
+  width: 30px;
+  height: 30px;
+}
+@media (max-width: 660px) {
+  section{
+    flex-direction: column;
+  }
+  .texto-contato .info svg{
+    width: 20px;
+    height: 20px;
+  }
+  .texto-contato .info p{
+    margin-left: 10px;
+    font-size: 15px;
+  }
+}

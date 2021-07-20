@@ -1,0 +1,24 @@
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+section .imagem{
+  padding: 10px;
+  min-width: 200px;
+  width: 33.333%;
+  
+}
+section .imagem img{
+  width: 100%;
+  border: 5px solid #F5954D;
+  border-radius: 100%;
+  box-shadow: 0 16px 40px rgba(112,144,176,0.2);
+}
+@media (max-width: 500px){
+  section {
+    flex-direction: column;
+    align-items: center;
+  }
+}

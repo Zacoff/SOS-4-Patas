@@ -1,0 +1,31 @@
+section{
+  width:100%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imagem-sobre{
+  width: 40%;
+}
+.imagem-sobre img{
+  width: 100%;
+}
+.texto-sobre{
+  max-width: 520px;
+  font-size: 20px;
+  text-align: left;
+  color: white;
+  padding: 25px;
+}
+.texto-sobre span{
+  color: #F5954D;
+}
+@media (max-width: 660px) {
+  section{
+    flex-direction: column;
+    padding: 16px;
+  }
+  .imagem-sobre{
+    min-width: 250px;
+  }
+}

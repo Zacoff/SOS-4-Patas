@@ -1,0 +1,39 @@
+section{
+  width:100%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-como-doar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 33.333%;
+  min-width: 290px;
+  height: 200px;
+  margin: 16px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #F3AD77;
+}
+.imagem-como-doar {
+  display: flex;
+  margin-bottom: 30px;
+  height: 80px;
+}
+.imagem-como-doar img {
+  width:100%;
+}
+.container-como-doar p{
+  font-size: 20px;
+}
+@media (max-width: 738px) {
+  section{
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .container-como-doar p{
+    font-size: 15px;
+  }
+}
