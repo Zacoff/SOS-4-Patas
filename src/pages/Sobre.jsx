@@ -21,7 +21,7 @@ export default function Sobre() {
               <br/>
               <p>Nossa Organização<span>não visa lucros</span>. Atuamos no âmbito da saúde e da educação humanitária através de atendimento medico-veterinário preferencial a animais de rua e aqueles pertencentes a famílias de baixa renda, e na capacitação de educadores ambientais da rede municipal, enfocando a guarda responsável de animais de estimação, zoonoses e bem-estar animal.</p>
               <br/>
-              <p>Acreditamos que toda a sociedade é responsável pelo cuidado com os animais domesticados. Por isso, <span>não possuímos abrigo e não recolhemos animais</span>.</p>
+              <p>Acreditamos que toda a sociedade é responsável pelo cuidado com os animais domesticados. Por isso,<span> não possuímos abrigo e não recolhemos animais</span>.</p>
             </div>
         </section>
       </div>
